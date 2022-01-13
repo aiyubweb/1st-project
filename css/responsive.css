@@ -1,0 +1,1192 @@
+/* Mini Device-- Galaxy Fold and Mini phones */
+@media (min-width: 279px) and (max-width: 319px){
+/* code start */
+.header-section .navbar{
+    padding: 10px 0px;
+}
+.header-section .navbar-nav{
+    margin: 8px 0px 0px;
+}
+.navbar .navbar-brand{
+    width: 100px;
+}
+.header-section .banner{
+    padding: 20px 0px;
+}
+.header-section .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 10px;
+    padding: 4px 9px;
+    margin: 5px 0px 0px;
+    text-align: center;
+}
+.header-section .banner .banner-inner .banner-inner-content{
+    margin-bottom: 30px;
+}
+.header-section .banner .banner-inner .banner-inner-content h3{
+    font-size: 16px;
+    line-height: 26px;
+}
+.header-section .banner .banner-inner .banner-inner-content h1{
+    font-size: 28px;
+    line-height: 38px;
+}
+.header-section .banner .banner-inner .banner-img{
+    margin-bottom: -60px;
+}
+/* *************about css start********* */
+.about-section{
+    padding: 20px 0px;
+}
+.about-section .about-left{
+    padding: 40px 0px 10px;
+}
+.about-section .about-left h3{
+    font-size: 14px;
+    line-height: 24px;
+}
+.about-section .about-left h1{
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-section .about-left .content{
+    font-size: 12px;
+    line-height: 22px;
+    padding: 5px 0px;
+}
+.about-section .about-left .btn-custom{
+    padding: 8px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.about-section .about-right{
+    width: 100%;
+    margin: 20px 0px;
+}
+.about-section .about-right h1{
+    font-size: 22px;
+    padding: 12px;  
+}
+.about-section .about-right form{
+    padding: 10px;
+}
+.about-section .about-right .form-select{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.about-section .about-right .form-control{
+    font-size: 12px;
+    margin: 0px;
+}
+.about-section .about-right form .btn-custom{
+    font-size: 12px;
+}
+/* *************about css end********* */
+/*************************************************************
+ card css start
+ *************************************************************/
+
+ /* ***global css start ***********/
+ .title{
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+.title h3{
+    font-size: 26px;
+    line-height: 36px;
+}
+.title h1{
+    font-size: 32px;
+    line-height: 42px;
+}
+ /* ***global css end*************/
+.card-section{
+     padding: 40px 0px;
+}
+.card-section .card{
+     padding: 10px;
+     margin: 40px 0px;
+}
+.card-section .card .card-img-top{
+   margin-top: -70px;
+}
+.card-section .card .card-body{
+   padding: 10px;
+}
+.card-section .card .card-body .card-title{
+   font-size: 16px;
+   line-height: 26px;
+}
+.card-section .card .card-body .card-text{
+   font-size: 12px;
+   line-height: 22px;
+   margin: 10px 0px;
+}
+.card-section .card .card-body h2{
+   font-size: 22px;
+   line-height: 32px;
+   margin-bottom: 15px;
+}
+.card-section .card .card-body .btn-custom{
+   padding: 5px 15px;
+   font-size: 14px;
+}
+/*************************************************************
+card css end
+*************************************************************/
+/*************************************************************
+ do best css start
+ *************************************************************/
+ .do-best{
+    padding: 40px 0px;
+}
+.do-best .title h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+.do-best .title h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+.do-best .do-best-content img{
+    margin: 10px 0px 0px 10px;
+}
+.do-best .do-best-content h4{
+    font-size: 16px;
+    line-height: 26px;
+}
+.do-best .do-best-content p{
+    width: 100%;
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+.do-best .do-best-right {
+    margin-left: 0px;
+}
+.do-best .do-best-left{
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+.do-best .btn-custom{
+    font-size: 16px;
+    padding: 6px 20px;
+    margin-top: 30px;
+}
+/*************************************************************
+ do best css end
+ *************************************************************/
+ /*************************************************************
+download css start
+ *************************************************************/
+.download{
+    padding: 20px 0px;
+}
+.download .download-inner{
+  padding: 0px;
+  margin: 0px;
+}
+.download .title h3{
+    font-size: 18px;
+    line-height: 28px;
+}
+.download .title h1{
+    font-size: 28px;
+    line-height: 38px;
+}
+.download .download-inner .download-content h4{
+   font-size: 13px;
+   line-height: 23px;
+}
+.download .download-inner .download-content p{
+   font-size: 14px;
+   line-height: 24px;
+   margin: 15px 0px;
+}
+.download .download-inner .icon{
+   width: 80px;
+   margin: 10px 10px 0px 0px;
+}
+.download .download-image{
+   margin: 30px 0px 0px 30px;
+}
+/*************************************************************
+download css end
+*************************************************************/
+/*************************************************************
+testmonial css start
+ *************************************************************/
+.testimonial{
+    padding: 20px 0px 20px;
+}
+.testimonial .title{
+   padding: 20px 0px 0px;
+}
+.testimonial .title h3{
+    font-size: 18px;
+    line-height: 28px;
+}
+.testimonial .title h1{
+    font-size: 28px;
+    line-height: 38px;
+}
+.testimonial .owl-carousel{
+   padding: 20px;
+}
+.testimonial .owl-carousel .item{
+    padding: 15px;
+    border-radius: 10px;
+}
+.testimonial .owl-carousel .item h4{
+   font-size: 12px;
+   line-height: 22px;
+}
+.testimonial .owl-carousel .item .clients-img{
+   width: 50px;
+   height: 50px;
+   margin: 15px 0px 0px 0px;
+}
+.testimonial .owl-carousel .item h6{
+   font-size: 12px;
+   margin: 0px 0px 8px -10px;
+}
+.testimonial .owl-carousel .item p{
+   font-size: 14px;
+   margin: 15px 0px 8px -10px;
+}
+.testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+   margin-top: 20px;
+}
+/*************************************************************
+testmonial css end
+*************************************************************/
+/*************************************************************
+cta section css start
+ *************************************************************/
+ .cta-section{
+    padding: 20px 0px;
+}
+.cta-section .title h3{
+    font-size: 16px;
+    line-height: 26px;
+}
+.cta-section .title h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+/*************************************************************
+cta section css end
+ *************************************************************/
+ /*************************************************************
+footer css start
+ *************************************************************/
+.footer-section{
+    padding: 20px 0px 0px;
+}
+.footer-section .footer-inner{
+    padding: 0px;
+}
+.footer-section .footer-inner .footer-title h5{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+.footer-section .footer-title img{
+    width: 90%;
+}
+.footer-section .footer-inner .footer-content p{
+    font-size: 12px;
+    line-height: 22px;
+    margin: 10px 0px;
+}
+.footer-section .footer-inner .footer-social .nav .nav-item .nav-link{
+    font-size: 12px;
+    line-height: 22px;
+    padding: 0px;
+    margin: 0px 10px 0px 0px;
+}
+.footer-section .footer-inner .footer-social .nav .nav-item .nav-link span{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.footer-section .footer-inner .footer-social .nav .nav-item .nav-link .fa-apple{
+    margin: 5px 0px 0px 26px;
+}
+.footer-section .footer-inner .footer-contact p{
+    font-size: 12px;
+    line-height: 22px;
+    margin: 20px 20px 20px 0px;
+}
+.footer-section .footer-inner .footer-contact .fas{
+    margin-right: 10px;
+}
+.footer-section .my-website{
+    font-size: 12px;
+}
+.footer-section .footer-bottom{
+    padding: 10px 0px 0px;
+}
+.footer-section .footer-bottom .copyright{
+    font-size: 12px;
+    line-height: 22px;
+    padding: 8px 0px;
+}
+/*************************************************************
+footer css end
+ *************************************************************/
+/* code start */
+}
+/* Device-- most of the mobile phones */
+@media (min-width: 320px) and (max-width: 480px){
+/* code start */
+.header-section .navbar{
+    padding: 20px 0px;
+}
+.header-section .navbar-nav{
+    margin: 10px 0px 0px;
+}
+.navbar .navbar-brand{
+    width: 120px;
+}
+.header-section .banner{
+    padding: 30px 0px;
+}
+.header-section .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 8px 0px 0px;
+    text-align: center;
+}
+.header-section .banner .banner-inner .banner-inner-content{
+    margin-bottom: 30px;
+}
+.header-section .banner .banner-inner .banner-inner-content h3{
+    font-size: 16px;
+    line-height: 26px;
+}
+.header-section .banner .banner-inner .banner-inner-content h1{
+    font-size: 28px;
+    line-height: 38px;
+}
+.header-section .banner .banner-inner .banner-img{
+    margin-bottom: -80px;
+    width: 90% !important;
+    display: inline-block;
+}
+/* *************about css start********* */
+.about-section{
+    padding: 40px 0px;
+}
+.about-section .about-left{
+    padding: 40px 0px 15px;
+}
+.about-section .about-left h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-section .about-left h1{
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-section .about-left .content{
+    font-size: 14px;
+    line-height: 24px;
+    padding: 5px 0px;
+}
+.about-section .about-left .btn-custom{
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.about-section .about-right{
+    width: 100%;
+    margin: 20px 0px;
+}
+.about-section .about-right h1{
+    font-size: 22px;
+    padding: 12px;  
+}
+.about-section .about-right form{
+    padding: 10px;
+}
+.about-section .about-right .form-select{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.about-section .about-right .form-control{
+    font-size: 12px;
+    margin: 0px;
+}
+/* *************about css end********* */
+/*************************************************************
+ card css start
+ *************************************************************/
+
+ /* ***global css start ***********/
+ .title{
+    padding: 20px 0px;
+    margin-bottom: 30px;
+}
+.title h3{
+    font-size: 28px;
+    line-height: 38px;
+}
+.title h1{
+    font-size: 36px;
+    line-height: 46px;
+}
+ /* ***global css end*************/
+.card-section{
+     padding: 40px 0px;
+}
+.card-section .card{
+     padding: 10px;
+     margin: 40px 0px;
+}
+.card-section .card .card-img-top{
+   margin-top: -80px;
+}
+.card-section .card .card-body{
+   padding: 14px;
+}
+.card-section .card .card-body .card-title{
+   font-size: 18px;
+   line-height: 28px;
+}
+.card-section .card .card-body .card-text{
+   font-size: 14px;
+   line-height: 24px;
+   margin: 15px 0px;
+}
+.card-section .card .card-body h2{
+   font-size: 24px;
+   line-height: 34px;
+   margin-bottom: 20px;
+}
+.card-section .card .card-body .btn-custom{
+   padding: 6px 18px;
+   font-size: 16px;
+}
+/*************************************************************
+card css end
+*************************************************************/
+/*************************************************************
+ do best css start
+ *************************************************************/
+ .do-best{
+    padding: 40px 0px;
+}
+.do-best .title h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+.do-best .title h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+.do-best .do-best-content img{
+    margin: 10px 0px 0px 10px;
+}
+.do-best .do-best-content h4{
+    font-size: 16px;
+    line-height: 26px;
+}
+.do-best .do-best-content p{
+    width: 100%;
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+.do-best .do-best-right {
+    margin-left: 0px;
+}
+.do-best .do-best-left{
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+.do-best .btn-custom{
+    font-size: 16px;
+    padding: 6px 22px;
+    margin-top: 30px;
+}
+/*************************************************************
+ do best css end
+ *************************************************************/
+ /*************************************************************
+download css start
+ *************************************************************/
+.download{
+    padding: 40px 0px;
+}
+.download .download-inner{
+  padding: 0px;
+  margin: 0px;
+}
+.download .title h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+.download .title h1{
+    font-size: 32px;
+    line-height: 42px;
+}
+.download .title{
+    padding: 10px 0px;
+}
+.download .download-inner .download-content h4{
+   font-size: 14px;
+   line-height: 24px;
+}
+.download .download-inner .download-content p{
+   font-size: 14px;
+   line-height: 24px;
+   margin: 15px 0px;
+}
+.download .download-inner .icon{
+   width: 120px;
+   margin: 10px 10px 0px 0px;
+}
+.download .download-image{
+   margin: 40px 0px 0px 30px;
+}
+/*************************************************************
+download css end
+*************************************************************/
+*************************************************************
+testmonial css start
+ *************************************************************/
+.testimonial{
+    padding: 20px 0px 20px;
+}
+.testimonial .title{
+   padding: 20px 0px 0px;
+}
+.testimonial .title h3{
+    font-size: 18px;
+    line-height: 28px;
+}
+.testimonial .title h1{
+    font-size: 28px;
+    line-height: 38px;
+}
+.testimonial .owl-carousel{
+   padding: 20px;
+}
+.testimonial .owl-carousel .item{
+    padding: 15px;
+    border-radius: 10px;
+}
+.testimonial .owl-carousel .item h4{
+   font-size: 12px;
+   line-height: 22px;
+}
+.testimonial .owl-carousel .item .clients-img{
+   width: 50px;
+   height: 50px;
+   margin: 15px 0px 0px 0px;
+}
+.testimonial .owl-carousel .item h6{
+   font-size: 12px;
+   margin: 0px 0px 8px -10px;
+}
+.testimonial .owl-carousel .item p{
+   font-size: 14px;
+   margin: 15px 0px 8px -10px;
+}
+.testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+   margin-top: 20px;
+}
+/*************************************************************
+testmonial css end
+*************************************************************/
+/*************************************************************
+cta section css start
+ *************************************************************/
+ .cta-section{
+    padding: 20px 0px;
+}
+.cta-section .title h3{
+    font-size: 16px;
+    line-height: 26px;
+}
+.cta-section .title h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+/*************************************************************
+cta section css end
+ *************************************************************/
+ /*************************************************************
+footer css start
+ *************************************************************/
+.footer-section{
+    padding: 20px 0px 0px;
+}
+.footer-section .footer-inner{
+    padding: 0px;
+}
+.footer-section .footer-inner .footer-title h5{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+.footer-section .footer-title img{
+    width: 90%;
+}
+.footer-section .footer-inner .footer-content p{
+    font-size: 12px;
+    line-height: 22px;
+    margin: 10px 0px;
+}
+.footer-section .footer-inner .footer-social .nav .nav-item .nav-link{
+    font-size: 12px;
+    line-height: 22px;
+    padding: 0px;
+    margin: 0px 10px 0px 0px;
+}
+.footer-section .footer-inner .footer-social .nav .nav-item .nav-link span{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.footer-section .footer-inner .footer-social .nav .nav-item .nav-link .fa-apple{
+    margin: 5px 0px 0px 26px;
+}
+.footer-section .footer-inner .footer-contact p{
+    font-size: 12px;
+    line-height: 22px;
+    margin: 20px 20px 20px 0px;
+}
+.footer-section .footer-inner .footer-contact .fas{
+    margin-right: 10px;
+}
+.footer-section .my-website{
+    font-size: 12px;
+}
+.footer-section .footer-bottom{
+    padding: 10px 0px 0px;
+}
+.footer-section .footer-bottom .copyright{
+    font-size: 12px;
+    line-height: 22px;
+    padding: 8px 0px;
+}
+/*************************************************************
+footer css end
+ *************************************************************/
+/* code start */
+}
+/* Device-- low resolution tablets, phones and ipad mini */
+@media (min-width: 481px) and (max-width: 767px){
+/* code start */
+.header-section .navbar{
+    padding: 20px 0px;
+}
+.header-section .navbar-nav{
+    margin: 10px 0px 0px;
+}
+.navbar .navbar-brand{
+    width: 120px;
+}
+.header-section .banner{
+    padding: 40px 0px 20px;
+}
+.header-section .navbar .navbar-nav .nav-item .nav-link {
+    padding: 5px 10px;
+    margin: 8px 0px 0px;
+    text-align: center;
+}
+.header-section .banner .banner-inner .banner-inner-content{
+    margin-bottom: 40px;
+}
+.header-section .banner .banner-inner .banner-inner-content h3{
+    font-size: 24px;
+    line-height: 34px;
+}
+.header-section .banner .banner-inner .banner-inner-content h1{
+    font-size: 36px;
+    line-height: 46px;
+}
+.header-section .banner .banner-inner .banner-img{
+    margin-bottom: -80px;
+    width: 90% !important;
+    display: inline-block;
+}
+/* *************about css start********* */
+.about-section{
+    padding: 40px 0px;
+}
+.about-section .about-left{
+    padding: 40px 0px 15px;
+}
+.about-section .about-left h3{
+    font-size: 22px;
+    line-height: 32px;
+}
+.about-section .about-left h1{
+    font-size: 24px;
+    line-height: 34px;
+}
+.about-section .about-left .content{
+    font-size: 14px;
+    line-height: 24px;
+    padding: 5px 0px;
+}
+.about-section .about-left .btn-custom{
+    padding: 8px 25px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.about-section .about-right{
+    width: 100%;
+    margin: 20px 0px;
+}
+.about-section .about-right h1{
+    font-size: 26px;
+    padding: 20px;  
+}
+.about-section .about-right form{
+    padding: 20px;
+}
+.about-section .about-right .form-select{
+    margin: 15px 0px 20px;
+    font-size: 14px;
+}
+.about-section .about-right .form-control{
+    font-size: 14px;
+    margin: 0px;
+    padding-left: 0px;
+}
+/* *************about css end********* */
+/*************************************************************
+ card css start
+ *************************************************************/
+
+ /* ***global css start ***********/
+ .title{
+    padding: 30px 0px;
+    margin-bottom: 30px;
+}
+.title h3{
+    font-size: 30px;
+    line-height: 40px;
+}
+.title h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+ /* ***global css end*************/
+.card-section .card{
+     padding: 10px;
+     margin: 50px 0px;
+}
+.card-section .card .card-img-top{
+   margin-top: -80px;
+}
+.card-section .card .card-body .card-title{
+   font-size: 22px;
+   line-height: 32px;
+}
+.card-section .card .card-body .card-text{
+   font-size: 14px;
+   line-height: 24px;
+   margin: 15px 0px;
+}
+.card-section .card .card-body h2{
+   font-size: 28px;
+   line-height: 38px;
+}
+/*************************************************************
+card css end
+*************************************************************/
+/*************************************************************
+ do best css start
+ *************************************************************/
+ .do-best{
+    padding: 40px 0px;
+}
+.do-best .title h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+.do-best .title h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+.do-best .do-best-content img{
+    margin: 10px 0px 0px 10px;
+}
+.do-best .do-best-content h4{
+    font-size: 16px;
+    line-height: 26px;
+}
+.do-best .do-best-content p{
+    width: 100%;
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+.do-best .do-best-right {
+    margin-left: 0px;
+}
+.do-best .do-best-left{
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+.do-best .btn-custom{
+    font-size: 16px;
+    padding: 6px 22px;
+    margin-top: 30px;
+}
+/*************************************************************
+ do best css end
+ *************************************************************/
+ /*************************************************************
+download css start
+ *************************************************************/
+.download{
+    padding: 60px 0px;
+}
+.download .download-inner{
+  padding: 0px;
+  margin: 0px;
+}
+.download .title h3{
+    font-size: 28px;
+    line-height: 38px;
+}
+.download .title h1{
+    font-size: 36px;
+    line-height: 46px;
+}
+.download .title{
+    padding: 10px 0px;
+}
+.download .download-inner .download-content h4{
+   font-size: 21px;
+   line-height: 31px;
+}
+.download .download-inner .download-content p{
+   font-size: 16px;
+   line-height: 26px;
+   margin: 15px 0px;
+}
+.download .download-inner .icon{
+   width: 160px;
+   margin: 20px 10px 0px 0px;
+}
+.download .download-image{
+   margin: 40px 0px 0px 30px;
+}
+/*************************************************************
+download css end
+*************************************************************/
+/*************************************************************
+testmonial css start
+*************************************************************/
+.testimonial{
+    padding: 40px 0px 0px;
+}
+.testimonial .title{
+   padding: 15px 0px 0px;
+}
+.testimonial .title h3{
+    font-size: 24px;
+    line-height: 34px;
+}
+.testimonial .title h1{
+    font-size: 36px;
+    line-height: 46px;
+}
+.testimonial .owl-carousel{
+   padding: 30px;
+}
+.testimonial .owl-carousel .item{
+    padding: 20px;
+    border-radius: 20px;
+}
+.testimonial .owl-carousel .item h4{
+   font-size: 16px;
+   line-height: 26px;
+}
+.testimonial .owl-carousel .item .clients-img{
+   width: 50px;
+   height: 50px;
+   margin: 15px 0px 0px 0px;
+}
+.testimonial .owl-carousel .item h6{
+   font-size: 12px;
+   margin: 0px 0px 10px -10px;
+}
+.testimonial .owl-carousel .item p{
+   font-size: 14px;
+   margin: 15px 0px 10px -10px;
+}
+.testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+   margin-top: 40px;
+}
+/*************************************************************
+testmonial css end
+*************************************************************/
+/*************************************************************
+cta section css start
+ *************************************************************/
+ .cta-section{
+    padding: 40px 0px;
+}
+.cta-section .title h3{
+    font-size: 24px;
+    line-height: 34px;
+}
+.cta-section .title h1{
+    font-size: 42px;
+    line-height: 52px;
+}
+/*************************************************************
+cta section css end
+ *************************************************************/
+ /*************************************************************
+footer css start
+ *************************************************************/
+.footer-section{
+    padding: 40px 0px 0px;
+}
+.footer-section .footer-inner{
+    padding: 10px;
+}
+.footer-section .footer-inner .footer-title h5{
+    font-size: 22px;
+    line-height: 32px;
+}
+.footer-section .footer-title img{
+    width: 90%;
+}
+.footer-section .footer-inner .footer-content p{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 20px 20px 20px 0px;
+}
+.footer-section .footer-inner .footer-social .nav .nav-item .nav-link{
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px;
+    margin: 0px 20px 0px 0px;
+}
+.footer-section .footer-inner .footer-contact p{
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer-section .footer-inner .footer-contact .fas{
+    margin-right: 15px;
+}
+.footer-section .my-website{
+    font-size: 14px;
+}
+.footer-section .footer-bottom{
+    padding: 10px 0px 0px;
+}
+.footer-section .footer-bottom .copyright{
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 0px;
+}
+/*************************************************************
+footer css end
+ *************************************************************/
+/* code end */
+}
+/* Device--  msot of the tablets notebook and laptops */
+@media (min-width: 768px) and (max-width: 1024px){
+/* code start */
+.header-section .navbar-nav{
+    margin: 10px 0px 0px;
+}
+.header-section .banner{
+    padding: 40px 0px 20px;
+}
+.header-section .navbar .navbar-nav .nav-item .nav-link {
+    margin: 10px 0px 0px;
+    text-align: center;
+}
+.header-section .banner .banner-inner .banner-inner-content{
+    margin-bottom: 40px;
+}
+.header-section .banner .banner-inner h3{
+    font-size: 22px;
+    line-height: 32px;
+}
+.header-section .banner .banner-inner h1{
+    font-size: 38px;
+    line-height: 48px;
+}
+.header-section .banner .banner-inner .banner-img{
+    margin-bottom: -120px;
+}
+/* *************about css start********* */
+.about-section{
+    padding: 60px 0px;
+}
+.about-section .about-left{
+    padding: 40px 0px 15px;
+}
+.about-section .about-left h3{
+    font-size: 24px;
+    line-height: 36px;
+}
+.about-section .about-left h1{
+    font-size: 36px;
+    line-height: 46px;
+}
+.about-section .about-right{
+    width: 100%;
+    margin: 20px 0px;
+}
+.about-section .about-right h1{
+    font-size: 36px;
+    line-height: 46px;
+    padding: 20px;  
+}
+/* *************about css end********* */
+/*************************************************************
+ card css start
+ *************************************************************/
+.card-section .card {
+    padding: 0px;
+}
+.card-section .card .card-img-top{
+   margin-top: -60px;
+}
+.card-section .card .card-body{
+    padding: 10px;
+}
+.card-section .card .card-body .card-title{
+   font-size: 19px;
+   line-height: 29px;
+}
+.card-section .card .card-body .card-text{
+   font-size: 14px;
+   line-height: 24px;
+   margin: 15px 0px;
+}
+.card-section .card .card-body h2{
+   font-size: 28px;
+   line-height: 38px;
+}
+.card-section .card .card-star{
+    width: 40px;
+    height: 40px;
+}
+/*************************************************************
+card css end
+*************************************************************/
+/*************************************************************
+ do best css start
+ *************************************************************/
+ .do-best{
+    padding: 60px 0px;
+}
+.do-best .title h3{
+    font-size: 22px;
+    line-height: 32px;
+}
+.do-best .title h1{
+    font-size: 36px;
+    line-height: 46px;
+}
+.do-best .do-best-content img{
+    margin: 0px;
+}
+.do-best .do-best-content h4{
+    font-size: 22px;
+    line-height: 32px;
+}
+.do-best .do-best-content p{
+    width: 100%;
+}
+.do-best .do-best-right {
+    margin-left: 0px;
+}
+.do-best .do-best-left{
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+.do-best .btn-custom{
+    font-size: 16px;
+    padding: 8px 25px;
+    margin-top: 30px;
+}
+/*************************************************************
+ do best css end
+ *************************************************************/
+ /*************************************************************
+download css start
+ *************************************************************/
+.download{
+    padding: 60px 0px;
+}
+.download .download-inner{
+  padding: 0px;
+  margin: 0px;
+}
+.download .title h3{
+    font-size: 30px;
+    line-height: 40px;
+}
+.download .title h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+.download .title{
+    padding: 20px 0px;
+}
+.download .download-inner .download-content h4{
+   font-size: 32px;
+   line-height: 42px;
+}
+.download .download-inner .download-content p{
+   font-size: 16px;
+   line-height: 26px;
+   margin: 20px 0px;
+}
+.download .download-inner .icon{
+   width: 180px;
+   margin: 20px 10px 0px 0px;
+}
+.download .download-image{
+   margin: 40px 0px 0px;
+}
+/*************************************************************
+download css end
+*************************************************************/
+/*************************************************************
+testmonial css start
+*************************************************************/
+.testimonial{
+    padding: 60px 0px 0px;
+}
+.testimonial .owl-carousel{
+   padding: 40px;
+}
+.testimonial .owl-carousel .item{
+    padding: 20px;
+    border-radius: 20px;
+}
+.testimonial .owl-carousel .item .clients-img{
+   width: 50px;
+   height: 50px;
+   margin: 15px 0px 0px 0px;
+}
+.testimonial .owl-carousel .item h6{
+   font-size: 12px;
+   margin: 0px 0px 10px 0px;
+}
+.testimonial .owl-carousel .item p{
+   font-size: 14px;
+   margin: 15px 0px 10px 0px;
+}
+.testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+   margin-top: 40px;
+}
+/*************************************************************
+testmonial css end
+*************************************************************/
+/* code start */
+}

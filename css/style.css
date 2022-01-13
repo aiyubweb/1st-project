@@ -1,0 +1,625 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/*************************************************************
+ header css start 
+ *************************************************************/
+.header-section{
+    width: 100%;
+    background: url("../images/banner.png") top center no-repeat;
+    background-size: cover;
+}
+.navbar-wrapper {
+    margin-top:0px;
+    background: transparent;
+    position: relative;
+    z-index: 15;
+}
+.isStuck{
+    left:0px;
+    width:100%;
+    background: #000;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, .2);
+}
+.header-section .navbar{
+    width: 100%;
+    padding: 20px 0px;
+}
+.header-section .banner{
+    width: 100%;
+    padding: 80px 0px 20px;
+    text-align: center;
+}
+.header-section .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 5px;
+}
+.header-section .navbar .navbar-toggler{
+    border: 0;
+}
+.header-section .navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.header-section .navbar .navbar-nav .nav-item .nav-link:hover{
+    background: #ffc61a;
+    color: #000;
+    transition: .5s;
+}
+.header-section .navbar .navbar-nav .nav-item .active{
+    background: #ffc61a;
+    color: #000;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+.header-section .banner .banner-inner{
+    width: 100%;
+    position: relative;
+}
+.header-section .banner .banner-inner .banner-inner-content{
+    width: 100%;
+    margin: 40px 0px 60px;
+}
+.header-section .banner .banner-inner .banner-inner-content h3{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 42px;
+    color: #ffc61a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.header-section .banner .banner-inner .banner-inner-content h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.header-section .banner .banner-inner .banner-img{
+    width: 100%;
+    margin-bottom: -150px;
+}
+/*************************************************************
+ header css end
+ *************************************************************/
+/*************************************************************
+ about css start
+ *************************************************************/
+.about-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: #ffc61a;
+}
+.about-section .about-left{
+    padding: 70px;
+}
+.about-section .about-left h3{
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.about-section .about-left h1{
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 52px;
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.about-section .about-left .content{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #101010;
+    padding: 20px 0px 30px 10px;
+}
+.about-section .about-left .btn-custom{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    position: relative;
+    z-index: 1;
+}
+.about-section .about-left .btn-custom::before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffc61a;
+    color: #000;
+    border-radius: 10px;
+    transition: .5s;
+    z-index: -1;
+}
+.about-section .about-left .btn-custom:hover::before{
+    width: 100%;
+    color: #000;
+}
+.about-section .about-right{
+    width: 380px;
+    background: #fff;
+    margin-top: 70px;
+    display: inline-block;
+    border-radius: 2px;
+    box-shadow: 1px 4px 6px 2px rgba(0, 0, 0, .2);
+}
+.about-section .about-right h1{
+    font-size: 36px;
+    font-weight: 900;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 25px;
+    margin-bottom: 0;   
+}
+.about-section .about-right h1 span{
+    color: #ffc61a;
+}
+.about-section .about-right form{
+    padding: 20px;
+    display: inline-block;
+}
+.about-section .about-right .form-select{
+    border: 0;
+    border-bottom: 3px solid #e4e4e4;
+    box-shadow: none;
+    border-radius: 0;
+    cursor: pointer;
+    margin-bottom:30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.about-section .about-right .form-control{
+    color: #000 !important;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0px 0px 5px;
+    border: 0;
+    padding-left: 0px;
+    border-bottom: 3px solid #e4e4e4;
+    box-shadow: none;
+    border-radius: 0;
+}
+.about-section .about-right form .btn-custom{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    position: relative;
+    z-index: 1;
+}
+.about-section .about-right .btn-custom::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ffc61a;
+    color: #000;
+    border-radius: 10px;
+    transition: .5s;
+    z-index: -1;
+}
+.about-section .about-right .btn-custom:hover::before{
+    height: 100%;
+    color: #000;
+}
+.about-section .about-right .form-control:focus,
+.about-section .about-right .form-select:focus{
+    border-color: #ffc61a;
+}
+/*************************************************************
+ about css end
+ *************************************************************/
+
+/*************************************************************
+ card css start
+ *************************************************************/
+
+ /* ***global css start ***********/
+.title{
+     width: 100%;
+     padding: 40px 0px;
+     text-align: center;
+     margin-bottom: 40px;
+}
+.title h3{
+     font-size: 32px;
+     font-weight: 900;
+     line-height: 42px;
+     color: #ffc61a;
+     text-transform: uppercase;
+}
+.title h1{
+     font-size: 48px;
+     font-weight: 900;
+     line-height: 58px;
+     text-transform: uppercase;
+     color: #000;
+}
+  /* ***global css end*************/
+.card-section{
+      width: 100%;
+      padding: 40px;
+      background: #fff;
+}
+.card-section .card{
+      width: 100%;
+      background: #f5f4f2;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 0px;
+      text-align: center;
+      position: relative;
+      transition: .5s;
+}
+.card-section .card .card-img-top{
+    margin-top: -95px;
+}
+.card-section .card .card-body{
+    padding: 20px;
+}
+.card-section .card .card-body .card-title{
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.card-section .card .card-body .card-text{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #101010;
+    margin: 20px 0px;
+}
+.card-section .card .card-body h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    line-height: 42px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffc61a;
+    margin-bottom: 20px;
+}
+.card-section .card .card-body .btn-custom{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    background: #ffc61a;
+    color: #000;
+    font-weight: 500;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.card-section .card .card-star{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.card-section .card:hover{
+    background: #ffc61a;
+    transition: .5s;
+    cursor: pointer;
+}
+.card-section .card:hover .card-body h2{
+    color: #000;
+    transition: .5s;
+}
+.card-section .card:hover .card-body .btn-custom{
+    background: #ffc61a;
+    color: #fff;
+    transition: .5s;
+}
+/*************************************************************
+ card css end
+ *************************************************************/
+/*************************************************************
+ do best css start
+ *************************************************************/
+.do-best{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/bimage.png") top center no-repeat;
+    background-size: cover;
+}
+.do-best .do-best-content{
+    width: 100%;
+}
+.do-best .do-best-content img{
+    margin: 15px 0px 0px;
+}
+.do-best .do-best-content h4{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #ffc61a;
+    text-transform: uppercase;
+}
+.do-best .do-best-content p{
+    width: 70%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+}
+.do-best .do-best-right {
+    width: 100%;
+    margin-left: 70px;
+}
+.do-best .do-best-left{
+    width: 100%;
+    margin-left: 70px;
+}
+.do-best .btn-custom{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    background: #ffc61a;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 1px solid #ffc61a;
+}
+.do-best .btn-custom:hover{
+    background: transparent;
+    color: #fff;
+    transition: .5s;
+}
+/*************************************************************
+ do best css end
+ *************************************************************/
+/*************************************************************
+download css start
+ *************************************************************/
+.download{
+     width: 100%;
+     padding: 80px 0px;
+}
+.download .download-inner{
+   padding: 80px 40px 80px 90px;
+}
+.download .download-inner .download-content{
+    width: 100%;
+}
+.download .download-inner .download-content h4{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.download .download-inner .download-content p{
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 60px 20px 0px;
+}
+.download .download-inner .icon{
+    width: 160px;
+    margin: 20px 20px 0px 0px;
+}
+.download .download-image{
+    width: 100%;
+}
+/*************************************************************
+download css end
+ *************************************************************/
+/*************************************************************
+testmonial css start
+ *************************************************************/
+.testimonial{
+     width: 100%;
+     padding: 80px 0px 20px;
+     background: url("../images/test.png") top center no-repeat;
+     background-size: cover;
+}
+.testimonial .title{
+    padding: 20px 0px 0px;
+}
+.testimonial .owl-carousel{
+    width: 100%;
+    padding: 40px;
+}
+.testimonial .owl-carousel .item{
+     background: #000;
+     padding: 30px;
+     border-radius: 40px;
+     margin: 0px;
+}
+ .testimonial .owl-carousel .item h4{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 26px;
+    color: #fff;
+}
+.testimonial .owl-carousel .item .clients-img{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    margin: 15px 0px 0px 0px;
+}
+.testimonial .owl-carousel .item h6{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0px 10px -20px;
+}
+.testimonial .owl-carousel .item p{
+    font-size: 16px;
+    color: #ffc61a;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 20px 0px 10px -20px;
+}
+.testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 60px;
+}
+.owl-theme .owl-dots .owl-dot span{
+    background: #ffc61a;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background: #fff;
+}
+/*************************************************************
+testmonial css end
+ *************************************************************/
+/*************************************************************
+cta section css start
+ *************************************************************/
+.cta-section{
+    width: 100%;
+    padding: 40px 0px;
+    background: #ffc61a;
+}
+.cta-section .title{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.cta-section .title h3{
+    color: #000;
+    font-size: 26px;
+    line-height: 36px;
+}
+.cta-section .title h1{
+    color: #000;
+    font-size: 52px;
+    line-height: 62px;
+}
+/*************************************************************
+cta section css end
+ *************************************************************/
+/*************************************************************
+footer css start
+ *************************************************************/
+.footer-section{
+    width: 100%;
+    padding: 80px 0px 0px;
+    background: url("../images/fimg.png") top center no-repeat;
+    background-size: cover;
+}
+.footer-section .footer-title{
+    width: 100%;
+}
+.footer-section .footer-title img{
+    width: 100%;
+}
+.footer-section .footer-inner{
+    padding: 20px;
+}
+.footer-section .footer-inner .footer-title h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-section .footer-inner .footer-content p{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #fff;
+    margin: 20px 20px 20px 0px;
+}
+.footer-section .footer-inner .footer-social{
+    width: 100%;
+}
+.footer-section .footer-inner .footer-social .nav .nav-item .nav-link{
+    color: #ffc61a;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px 0px;
+    margin: 0px 20px 0px 0px;
+}
+.footer-section .footer-inner .footer-social .nav .nav-item .nav-link:hover{
+    color: #fff;
+    transform: translateY(-15%);
+    transition: .5s;
+}
+.footer-section .footer-inner .footer-social .nav .nav-item .nav-link span{
+    margin-left: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+.footer-section .footer-inner .footer-social .nav .nav-item .nav-link .fa-apple{
+    margin: 5px 0px 0px 36px;
+}
+.footer-section .footer-inner .footer-contact p{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #fff;
+    margin: 20px 20px 20px 0px;
+}
+.footer-section .footer-inner .footer-contact .fas{
+    margin-right: 20px;
+    display: inline-block;
+}
+.footer-section .my-website{
+    color: #ffc61a;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.footer-section .footer-bottom{
+    width: 100%;
+    padding: 10px 0px 0px;
+    background: #010101;
+}
+.footer-section .footer-bottom .copyright{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 0px;
+}
+/*************************************************************
+footer css end
+ *************************************************************/
